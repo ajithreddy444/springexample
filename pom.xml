@@ -53,6 +53,20 @@
       <url>http://ec2-13-59-49-243.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
+<profile>
+     <id>ajith-deploy</id>
+ <distributionManagement>
+    <repository>
+      <id>ajith-releases</id>
+      <name>vcard-releases</name>
+      <url>http://35.154.108.31:8081/nexus/content/repositories/ajith-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ajith-snapshots</id>
+      <name>vcard-snapshots</name>
+      <url>http://35.154.108.31:8081/nexus/content/repositories/ajith-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </profile>
-  </profiles>
+</profiles>
 </project>
